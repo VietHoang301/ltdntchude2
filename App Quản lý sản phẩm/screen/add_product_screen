@@ -1,4 +1,3 @@
-
 import 'package:exam1/model/Product.dart';
 import 'package:exam1/service/product_service.dart';
 import 'package:flutter/material.dart';
