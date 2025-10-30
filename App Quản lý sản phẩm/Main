@@ -1,1 +1,19 @@
+import 'package:exam1/screen/product_screen.dart';
+import 'package:flutter/material.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(ExampleSqlite());
+}
+
+class ExampleSqlite extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Exam1',
+      home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
+    );
+  }
+}
 
